@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+   
+}
+.im{
+    /* align-items: center; */
+    margin-left: 800px;
+    height: 700px;
+    /* padding: 0;
+    margin: 0;
+    align-items: center;
+    text-align: center; */
+}
+.t{
+    color: aliceblue;
+    margin: 0;
+}
+ button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color:rgba(175, 0, 0, 0.767) ;
+    cursor: pointer;
+ }
+ .bx{
+     box-sizing: 50px;
+    border-color: aliceblue;
+    background: rgba(14, 13, 13, 0.384);
+    box-shadow: 3px 10px 15px grey;
+    width: 180px;
+    height: 950px;
+ }
+ button:hover{
+    transition: 0.1s;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    width: 92px;
+    height: 32px;
+    border-radius: 22px;
+    color: aliceblue;
+    background-color:rgba(206, 2, 2, 0.767) ;
+    cursor: pointer;
+ }
+ .l1{
+    color: aliceblue;
+ }

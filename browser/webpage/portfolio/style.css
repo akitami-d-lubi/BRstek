@@ -1,0 +1,132 @@
+ /* *{
+    padding: 0;
+    /* width: 0;  */
+/* } */  
+body{
+    background-size: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* place-items: 10px;
+    text-align: center; */
+}
+.m{
+    display: flex;
+}
+ h1{
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+    margin-top: 0px;
+} .b1{
+    display: flex;
+    align-items: center;
+    /* margin-left: 1500px; */
+    /* margin-right: 10px; */
+    height:25px ;
+    width: 80px;
+}
+
+.b3{
+    display: flex;
+    align-items: center;
+    /* margin-left: 1600px; */
+    margin-right: 0px;
+    height:25px ;
+    width: 90px;
+    margin-top: 0px;
+}
+button{
+    display: flex;
+    height: 25px;
+    width: 60px;
+    background: linear-gradient(45deg,rgb(90, 0, 0),rgb(177, 16, 16));
+    border-radius: 20px;
+    /* box-shadow: 3px 3px 15px black; */
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.b2{
+    width: 100px;
+}
+.mt{
+    color: aliceblue;
+    text-size-adjust: 2px;
+    margin-left: 150px;
+    margin-top: 70px;
+    border: 10px;
+    background-color: rgb(100, 0, 0);
+    /* box-sizing: 300px; */
+    width: 400px;
+    /* border-radius: 10px; */
+    box-shadow: 3px 3px 15px rgb(112, 0, 0);
+    /* outline: 10px black; */
+    border-color: black;
+    
+    
+    
+}
+
+/* button::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #020202;
+    left: 0;
+    top:0;
+    border-radius: 10px;
+} */
+/* button::before{
+    content: "";
+    background: linear-gradient(45deg ,red,orange,yellow,lime,cyan,blue,pink,red);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100%+4px);
+    height:calc(100%+4px) ;
+    filter: blur();
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+} */
+/* @keyframes glowing {
+    0% {background-position: 0 0;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+     */
+
+     .lg{
+        size: 20%;
+     }
+
+
+
+     input{
+        height: 20px;
+        width: 1500px;
+        color: gray;
+        background-color: transparent;
+        border-radius: 20px;
+     }
+     input::placeholder{
+        color: aliceblue;
+        text-align: right;
+        
+     }
+     button:hover{
+        /* transition: cubic */
+        background: linear-gradient(44deg rgb(180, 3, 3),rgb(199, 68, 68));
+     }
+     input:hover{
+        background-color:aliceblue;
+        
+
+     }
+     input::placeholder:hover{
+        color: black;
+     }
